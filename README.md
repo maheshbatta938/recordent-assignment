@@ -195,13 +195,3 @@ Use search and pagination
 Mahesh Batta
 
 
-# Notes
-
-This project fulfills all assignment requirements including:
-
-- JWT Authentication
-- CSV Upload
-- Pagination
-- Search
-- Database Integration
-- Full Deployment
