@@ -1,104 +1,97 @@
+# Recordent Assignment
 
- Live URL:
+## Live Application
+
+Frontend Live URL:  
 https://recordent-assignment-2.onrender.com/
 
-Backend Live URL:
+Backend Live URL:  
 https://recordent-assignment-1.onrender.com
 
-Demo Video
 
-Watch full working demo here:
+## Demo Video
+
+Watch full working demo here:  
 https://drive.google.com/file/d/1mvQPXXaMZ003jm4MQpurGC-gnFt8Garj/view?usp=sharing
 
-GitHub Repository
+
+## GitHub Repository
 
 https://github.com/maheshbatta938/recordent-assignment
 
-Project Overview
+
+# Project Overview
 
 This is a full-stack web application developed for the Recordent assignment.
 
 The application allows users to:
 
-Register account
+- Register account
+- Login using Email or Mobile
+- Upload buyer data via CSV file
+- Store buyer data in MySQL database
+- View buyer data in table format
+- Search buyers
+- Pagination support
+- Each user can access only their own data
 
-Login using Email or Mobile
 
-Upload buyer data via CSV file
+# Technology Stack
 
-Store buyer data in MySQL database
+## Frontend
 
-View buyer data in table format
+- React (Vite)
+- Tailwind CSS
+- Axios
 
-Search buyers
 
-Pagination support
+## Backend
 
-Each user can access only their own data
+- Node.js
+- Express.js
+- JWT Authentication
+- Multer (File Upload)
 
-Technology Stack
 
-Frontend
+## Database
 
-React (Vite)
+- MySQL
 
-Tailwind CSS
 
-Axios
+## Deployment
 
-Backend
+- Render (Frontend and Backend)
+- FreeSQLDatabase (Cloud MySQL)
 
-Node.js
 
-Express.js
+# Features
 
-JWT Authentication
+## Authentication
 
-Multer (File upload)
+- User Registration
+- User Login
+- JWT based authentication
+- Protected routes
 
-Database
 
-MySQL
+## Buyer Management
 
-Deployment
+- Upload CSV file
+- Store data in database
+- View buyers list
+- Pagination
+- Search functionality
 
-Render (Frontend and Backend)
 
-FreeSQLDatabase (Cloud MySQL)
+## Security
 
-Features
+- Password hashing using bcrypt
+- JWT token authentication
+- User-specific data access
 
-Authentication
 
-User Registration
+# Project Structure
 
-User Login
-
-JWT based authentication
-
-Protected routes
-
-Buyer Management
-
-Upload CSV file
-
-Store data in database
-
-View buyers list
-
-Pagination
-
-Search functionality
-
-Security
-
-Password hashing using bcrypt
-
-JWT token authentication
-
-User-specific data access
-
-Project Structure
 Recordent
 │
 ├ config
@@ -111,12 +104,12 @@ Recordent
 ├ database.sql
 ├ README.md
 
-Backend Setup (Local)
+
+# Backend Setup (Local)
 
 Open terminal:
 
 cd Recordent
-
 
 Install dependencies:
 
@@ -143,17 +136,16 @@ Server runs at:
 
 http://localhost:3000
 
-Frontend Setup (Local)
+
+# Frontend Setup (Local)
 
 Open terminal:
 
 cd recordent-frontend
 
-
 Install dependencies:
 
 npm install
-
 
 Run frontend:
 
@@ -164,7 +156,8 @@ Frontend runs at:
 
 http://localhost:5173
 
-Database Setup
+
+# Database Setup
 
 Open MySQL Workbench
 
@@ -175,32 +168,40 @@ database.sql
 
 This creates:
 
-users table
+- users table
+- buyers table
 
-buyers table
 
-How to Use
+# How to Use
 
-Step 1
+Step 1  
+Register new account  
 
-Register new account
+Step 2  
+Login  
 
-Step 2
+Step 3  
+Upload CSV file  
 
-Login
+Step 4  
+View buyers  
 
-Step 3
+Step 5  
+Use search and pagination  
 
-Upload CSV file
 
-Step 4
-
-View buyers
-
-Step 5
-
-Use search and pagination
-
-Author
+# Author
 
 Mahesh Batta
+
+
+# Notes
+
+This project fulfills all assignment requirements including:
+
+- JWT Authentication
+- CSV Upload
+- Pagination
+- Search
+- Database Integration
+- Full Deployment
