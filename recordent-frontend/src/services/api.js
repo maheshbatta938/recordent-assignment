@@ -2,12 +2,13 @@ import axios from "axios";
 
 const API = axios.create({
 
-  baseURL: "http://localhost:3000/api"
+  baseURL: "https://recordent-assignment-1.onrender.com/api"
+
 
 });
 
 
-// ✅ This automatically attaches correct token EVERY time
+// This automatically attaches correct token EVERY time
 
 API.interceptors.request.use(
 
